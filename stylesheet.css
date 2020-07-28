@@ -13,55 +13,35 @@ h1{
 	display: block;
 	margin-top: 60px;
 }
-.relative{
-	position:relative;
+.details{
+	font-size: 18px;
+	padding:12px;
+	margin:0;
+	clear:right;
 }
-div.box{
-	padding: 25px;
-	margin-right:20px;
-	margin-left:20px;
-	width:30%;
+.placename{
+	color:powderblue;
 	border:1px solid black;
+	font-size:23px;
+	border-top:0;
+	border-right:0;
+	width:200px;
+	float:right;
+	margin:0;
+	text-align:center;
 }
-div{
+.box{
+	background-color:#C5FF6E;
 	float:left;
-}
-#mada{
-	position:absolute;
-	top:0px;
-	left:280px;
-	right:5px;
-	background-color:lightblue;
-	
-}
-#ibiza{
-	position:absolute;
-	top:0px;
-	left:280px;
-	right:5px;
-	background-color:lightgreen;
+	margin: 1%;
+	width:31.3333%;
+	border:1px solid black;
 
 }
-#bali{
-	position:absolute;
-	top:0px;
-	left:280px;
-	right:5px;
-	background-color:lightyellow;
-
+#madagascar>h3{
+	background-color:lemonchiffon;
 }
-@media (min-width: 992px){
-	.div{
-		width: 33%;
-	}
+#ibiza>h3{
+	background-color:orange;
 }
-@media (min-width: 768px)and (max-width: 991px){
-	.div{
-		width: 50%;
-	}
-}
-@media  (max-width: 767px){
-	.div{
-		width: 100%;
-	}
-}
+#bali>h3{
