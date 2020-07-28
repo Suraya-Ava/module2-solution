@@ -1,0 +1,67 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: verdana, geneva, sans-serif;
+}
+h1{
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+}
+.relative{
+	position:relative;
+}
+div.box{
+	padding: 25px;
+	margin-right:20px;
+	margin-left:20px;
+	width:30%;
+	border:1px solid black;
+}
+div{
+	float:left;
+}
+#mada{
+	position:absolute;
+	top:0px;
+	left:280px;
+	right:5px;
+	background-color:lightblue;
+	
+}
+#ibiza{
+	position:absolute;
+	top:0px;
+	left:280px;
+	right:5px;
+	background-color:lightgreen;
+
+}
+#bali{
+	position:absolute;
+	top:0px;
+	left:280px;
+	right:5px;
+	background-color:lightyellow;
+
+}
+@media (min-width: 992px){
+	.div{
+		width: 33%;
+	}
+}
+@media (min-width: 768px)and (max-width: 991px){
+	.div{
+		width: 50%;
+	}
+}
+@media  (max-width: 767px){
+	.div{
+		width: 100%;
+	}
+}
